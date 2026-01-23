@@ -16,6 +16,7 @@ arr=[]
 n=int(input("Enter the num. of elemts you want to enter:"))
 
 for a in range(n):
-  k=int(input('Enter the elemnts into an array'))
+  k=int(input("Enter the elemnts into an array:"))
   arr.append(k)
-print("The sorted elements are",sort(arr))
+
+print("The sorted elements are:",sort(arr))
